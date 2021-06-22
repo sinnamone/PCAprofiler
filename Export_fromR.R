@@ -132,7 +132,7 @@ for (i in 1:length(nams)) {
     print(write.table(paste(nams[i],test[[j]],sep=","),"MSigDB_C2_CGPO.tsv",append= T,sep='\t',quote = FALSE))
   } 
 }
-#### QUI!
+#### 
 test <-GSETS$MSigDB_C2.REACTOME
 nams <- names(GSETS$MSigDB_C2.REACTOME)
 for (i in 1:length(nams)) {
